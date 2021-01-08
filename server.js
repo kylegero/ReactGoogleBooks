@@ -20,6 +20,11 @@ mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/googlebooks"
 );
 
+mongoose.connect(MONGODB_URI, {
+  useUnifiedTopology: true,
+  useNewUrlParser: true
+});
+
 // Start the API server
 app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
