@@ -1,0 +1,1 @@
+Created this file to hold any idea/potential pseudocode that might not fit in elsewhere.  There are a significant number of changes I'd like to make in client/src to add more buttons/functionality, but no time
